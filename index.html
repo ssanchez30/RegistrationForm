@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="" class="frmRegistration">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <h1>Registration Form</h1>
+            <div>
+                <label for="firstName">First Name: <span>*</span> </label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name">
+            </div>
+            <div>
+                <label for="lastName">First Name: <span>*</span> </label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name">
+            </div>
+            <div>
+                <label for="email">Email Address: <span>*</span> </label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="password">Password: <span>*</span> </label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <div>
+                <label for="passConf">Confirm Password: <span>*</span> </label>
+                <input type="password" id="passConf" name="passConf" placeholder="Confirm your password">
+            </div>
+            <div>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" placeholder="Enter your birthday">
+            </div>
+            <div>
+                <label for="">Gender Identity</label><br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="non_Bi" value="non_Bi">
+                <label for="non_Bi">Non-binary</label>
+                <input type="radio" name="NA" id="NA" value="NA">
+                <label for="NA">I prefer not to answer</label>
+            </div>
+            <div>
+                <label for="txtDescrip">A short description about myself:</label><br>
+                <textarea name="txtDescrip" id="txtDescrip"></textarea>
+            </div>
+            <div>
+                <label for="languages">Favorite Language:</label>
+                <select name="languages" id="languages">
+                    <option value="0">
+                        Please select a language
+                    </option>
+                    <option value="java">
+                        JAVA
+                    </option>
+                    <option value="python">
+                        Python
+                    </option>
+                    <option value="Jscript">
+                        JavaScript
+                    </option>
+                </select>
+            </div>
+            <div>
+            <input type="checkbox" name="receiveMails" id="receiveMails" value="yes" />
+            <label for="receiveMails">Yes, I would like to receive periodic email updates</label>
+            </div>
+            <div>
+                <button type="submit">Create Account</button>
+            </div>
+            <p><span>*</span> Indicates a required field</p>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
